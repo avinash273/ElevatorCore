@@ -1,5 +1,8 @@
 package com.avinash.javacore;
 
+/**
+ * Sub Class
+ */
 public class MountainBikeInheritance extends BicycleInheritance {
     public int seatHeight;
 

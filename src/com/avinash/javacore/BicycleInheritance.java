@@ -1,5 +1,8 @@
 package com.avinash.javacore;
 
+/**
+ * Super Class
+ */
 public class BicycleInheritance {
     public int gear;
     public int speed;

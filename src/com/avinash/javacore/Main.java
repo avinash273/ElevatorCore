@@ -42,10 +42,12 @@ public class Main {
 //        System.out.println("a.x and b.x both are same even though 'b' is not assigned ---> " + a.x + " : " + b.x);
 
         /**
-         * Inheritance
+         * Single Inheritance
          */
         MountainBikeInheritance mb = new MountainBikeInheritance(3, 100, 25);
         System.out.println(mb.toString());
+
+
 
     }
 }
