@@ -36,12 +36,16 @@ public class Main {
          * Singleton implementation
          */
 
-        MySingleton a = MySingleton.getInstance();
-        MySingleton b = MySingleton.getInstance();
+//        MySingleton a = MySingleton.getInstance();
+//        MySingleton b = MySingleton.getInstance();
+//        a.x = a.x + 10;
+//        System.out.println("a.x and b.x both are same even though 'b' is not assigned ---> " + a.x + " : " + b.x);
 
-        a.x = a.x + 10;
-
-        System.out.println("a.x and b.x both are same even though 'b' is not assigned ---> " + a.x + " : " + b.x);
+        /**
+         * Inheritance
+         */
+        MountainBikeInheritance mb = new MountainBikeInheritance(3, 100, 25);
+        System.out.println(mb.toString());
 
     }
 }
