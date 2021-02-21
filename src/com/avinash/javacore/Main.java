@@ -44,10 +44,15 @@ public class Main {
         /**
          * Single Inheritance
          */
-        MountainBikeInheritance mb = new MountainBikeInheritance(3, 100, 25);
-        System.out.println(mb.toString());
+//        MountainBikeInheritance mb = new MountainBikeInheritance(3, 100, 25);
+//        System.out.println(mb.toString());
 
-
-
+        /**
+         * Multiple Inheritance using Interfaces
+         */
+        ChildMultipleInheritance c = new ChildMultipleInheritance();
+        c.print_geek();
+        c.print_for();
+        c.print_geeks();
     }
 }
