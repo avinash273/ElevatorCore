@@ -41,7 +41,7 @@ public class Main {
 
         a.x = a.x + 10;
 
-        System.out.println("a.x and b.x both are same even though 'b' is not assigned --->" + a.x + " : " + b.x);
+        System.out.println("a.x and b.x both are same even though 'b' is not assigned ---> " + a.x + " : " + b.x);
 
     }
 }
